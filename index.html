@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Overpass:100,100i,200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i%7cPT+Serif:400,400i,700,700i"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/86a62bd63e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <title>Kitchen Banquet</title>
+</head>
+
+<body>
+    <header class="header-wrapper">
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="logo">
+                            <a class="navbar-brand" href="javascript:void(0);"><img src="./images/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="navbar-icon">
+                            <i onclick="myFunction()" class="fas fa-bars"></i>
+
+                        </div>
+
+                        <div class="menu">
+                            <ul id="show-menu" class="menu-list list-unstyled">
+                                <li><a href="javascript:void(0);">Home</a></li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+    <div id="carouselFull" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block" src="images/slider_1.jpg" alt="First slide">
+                <div class="carousel-caption d-md-block">
+                    <h3>Welcome To Styles Bar</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer felis neque, suscipit eget </p>
+                    <a class="btn btn-default" href="#" role="button">Make A Reservation</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block" src="images/slider_2.jpg" alt="Second slide">
+                <div class="carousel-caption d-md-block">
+                    <h3>Best Food Around</h3>
+                    <p>Nullam at elementum felis, at sodales diam. In a lectus nisl. Maecenas sodales commodo
+                    </p>
+                    <a class="btn btn-default" href="#" role="button">Make A Reservation</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block" src="images/slider_3.jpg" alt="Third slide">
+                <div class="carousel-caption d-md-block">
+                    <h3>Award Winning Service</h3>
+                    <p>Nam scelerisque molestie cursus. Ut scelerisque turpis iaculis erat feugiat, eget tristique
+                    </p>
+                    <a class="btn btn-default" href="#" role="button">Make A Reservation</a>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselFull" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselFull" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <main>
+        <section class="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="card services-info">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4><a href="#">Banquets</a></h4>
+                                </div>
+                                <div class="service-image">
+                                    <img src="images/service_img_1.jpg" class="rounded-circle" alt="">
+                                </div>
+                                <div class="service-text">
+                                    <p class="card-text">Quisque necerat blandi sceleris sesqueafacili venenatis. </p>
+                                    <a href="#" class="btn-link">View Our Banquets</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="card services-info">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4><a href="#">Kitchen Menu</a></h4>
+                                </div>
+                                <div class="service-image">
+                                    <img src="images/service_img_2.jpg" class="rounded-circle" alt="">
+                                </div>
+                                <div class="service-text">
+                                    <p class="card-text">Donec consequat necessed one sceleritdrci ementum. </p>
+                                    <a href="#" class="btn-link"> MENU LIST</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12">
+                        <div class="card services-info">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h4><a href="#">Hotel Rooms</a></h4>
+                                </div>
+                                <div class="service-image">
+                                    <img src="images/service_img_3.jpg" class="rounded-circle" alt="">
+                                </div>
+                                <div class="service-text">
+                                    <p class="card-text">Suspendisse virra faucibus luctus estibm eget euismum. </p>
+                                    <a href="#" class="btn-link">VIEW OUR ROOMS</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="amenities bg-light">
+            <div class="container mx-w-100">
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="aminities-title">
+                            <h3>OUR AMENITIES</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6">
+                        <div class="aminities-block">
+                            <div class="aminities-icon">
+                                <i class="fas fa-user-secret fa-3x icon_display" aria-hidden="true"></i>
+                            </div>
+                            <div class="aminities-text">
+                                <p class="aminities-content">Security surveillance (24 Hours)</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6">
+                        <i class="fas fa-hotel fa-3x icon_display" aria-hidden="true"></i>
+                        <p class="aminities-content">Elegant & luxurious interiors</p>
+
+                    </div>
+
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6">
+                        <i class="far fa-building fa-3x icon_display" aria-hidden="true"></i>
+                        <p class="aminities-content">Newly well design 4 banquets</p>
+
+                    </div>
+
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6">
+                        <i class="fa fa-diamond fa-3x icon_display" aria-hidden="true"></i>
+                        <p class="aminities-content">Profesional Floral & decorators</p>
+
+                    </div>
+
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6 ">
+                        <i class="fas fa-car fa-3x icon_display" aria-hidden="true"></i>
+                        <p class="aminities-content">Spacious Parking</p>
+
+                    </div>
+
+                    <div class="col-xl-2 col-lg-2 col-md-4 col-sm-6 col-6">
+                        <i class="fas fa-bed fa-3x icon_display" aria-hidden="true"></i>
+                        <p class="aminities-content">22 Modern & Luxurious Rooms</p>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="customers">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12 col-md-12 col-sm-12 col-lg-6 col-xl-6 offset-xl-3 offset-lg-3">
+                        <div class="section-heading">
+                            <h3 class="customer-text">What Our Customer Says</h3>
+                            <p>We've put together a list of what customers say is most important for them in their
+                                restaurant experience. <a href="#" class="btn-link">Read All Reviews</a></p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xl-4">
+                        <div class="testimonials-section">
+                            <div class="quote-icon">
+                                <i class="fa fa-quote-left quote-icon" aria-hidden="true"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="testimonial-text"> “Amazing restaurant, Nice place to visit and arrange a any
+                                    kind of function or parties, also food is so fresh & testy, i love this place”</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xl-4">
+                        <div class="testimonials-section">
+                            <div class="quote-icon">
+                                <i class="fa fa-quote-left quote-icon" aria-hidden="true"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="testimonial-text"> “Amazing restaurant, Nice place to visit and arrange a any
+                                    kind of function or parties, also food is so fresh & testy, i love this place”</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xl-4">
+                        <div class="testimonials-section">
+                            <div class="quote-icon">
+                                <i class="fa fa-quote-left quote-icon" aria-hidden="true"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <p class="testimonial-text"> “Amazing restaurant, Nice place to visit and arrange a any
+                                    kind of function or parties, also food is so fresh & testy, i love this place”</p>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 nopr nopl">
+                        <div class="card features">
+                            <div class="thumbnail-image">
+                                <img src="images/service_thumb_img_1.jpg" alt="">
+                            </div>
+
+                            <div class="features-content">
+                                <h3>PARTY</h3>
+                                <p>Aenean ultrices liberoquis eratretium efficitu Interdum et malesuada fames acante
+                                    ipsum
+                                    primis in faucinhac habitasse platea.</p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 nopr nopl">
+                        <div class="card features">
+                            <div class="thumbnail-image">
+                                <img src="images/service_thumb_img_2.jpg" alt="">
+                            </div>
+
+                            <div class="features-content">
+                                <h3>WEDDING</h3>
+                                <p>Nulla blandit risus ullamcorpeempor eleifend elitmi cursus nullaa porta libero loreae
+                                    magna tiam porta aliquet mattisulla purus.</p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 nopr nopl">
+                        <div class="card features">
+                            <div class="thumbnail-image">
+                                <img src="images/service_thumb_img_3.jpg" alt="">
+                            </div>
+
+                            <div class="features-content">
+                                <h3>CORPORATE EVENTS</h3>
+                                <p>Duis laoreet eleifend dolor ncidunt sollicitudin cursuselit erosvitae consequatnisl
+                                    efficiturc In lorem sapien euismod velurnaace.</p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 nopr nopl">
+                        <div class="card features">
+                            <div class="thumbnail-image">
+                                <img src="images/service_thumb_img_4.jpg" alt="">
+                            </div>
+
+                            <div class="features-content">
+                                <h3>BIRTHDAY PARTIES</h3>
+                                <p>Maecenas tristique urnsed aliquam imperdiete leomassa ultrices urnaut sagittis lectus
+                                    misit amet aruspendisse potentn ultricies.</p>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="offer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-12">
+                        <div class="offer-img">
+                            <img src="images/cta_offer_img_1.jpg" class="rounded-circle" alt="">
+                        </div>
+
+                    </div>
+                    <div class="offset-xl-1 col-xl-5 offset-lg-1 col-lg-5 col-md-6 col-sm-6 col-12">
+                        <div class="offer-content">
+                            <h2 class="price">$15.99</h2>
+                            <h3>Unlimited Lunch Offer</h3>
+                            <p>Special Savings for a limited time only! enjoy our classic lunchof unlimited breadsticks,
+                                salad, homemade soup.
+
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                        <div class="offer-button">
+                            <a href="#" class="btn btn-default btn-block">Call to Action Button</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section>
+            <div class="map-frame"><iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0"
+                    marginwidth="0"
+                    src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+                <div class="map-content card">
+                    <div class="card-body">
+                        <h3 class="reservation-text">Make A Reservation</h3>
+                    </div>
+
+                </div>
+                <div class="reservation card">
+                    <div class="card-body d-flex justify-content-start align-items-center">
+                        <div class="timeicon">
+                            <i class="fas fa-clock contact-icon"></i>
+                        </div>
+                        <div class="hours">
+                            <h6 class="opening-hours">Opening Hours</h6>
+                            <p class="opening-hours-text">Mon - Tue <span class="float-right">Closed</span></p>
+                            <p class="opening-hours-text">Wed - Thu <span class="float-right">6:00 - 10:00 Pm</span></p>
+                            <p class="opening-hours-text">Fri - Sun <span class="float-right">5:30 - 10:00 Pm</span></p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div class="footer-widget">
+                                <h3>Quick Links</h3>
+                                <ul>
+                                    <li> <i class="fas fa-chevron-right chevronicon"></i><a href="#" class="widget-links"> Home</a></li>
+                                    <li> <i class="fas fa-chevron-right chevronicon"></i> <a href="#">Blog</a></li>
+                                    <li> <i class="fas fa-chevron-right chevronicon"></i> <a href="#">About Us</a></li>
+                                    <li> <i class="fas fa-chevron-right chevronicon"></i> <a href="#">Customer Reviews</a></li>
+                                    <li> <i class="fas fa-chevron-right chevronicon"></i> <a href="#">FAQ's</a></li>
+                                    <li> <i class="fas fa-chevron-right chevronicon"></i> <a href="#">Contact</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div class="footer-widget">
+                                <h3>Services</h3>
+                                <ul>
+                                    <li> <i class="fas fa-chevron-right chevronicon"></i><a href="#" class="widget-links"> Banquet Hall</a></li>
+                                    <li> <i class="fas fa-chevron-right chevronicon"></i> <a href="#">Hotel</a></li>
+                                    <li> <i class="fas fa-chevron-right chevronicon"></i> <a href="#">Rooms</a></li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div class="footer-widget">
+                                <h3>Social Media</h3>
+                                <ul>
+                                    
+                                    <li><a href="#" class="btn-social-circle btn-facebook "><i class="fab fa-facebook-f socialicon"></i></a>Facebook</li>
+                                    <li><a href="#" class="btn-social-circle btn-facebook "><i class="fab fa-twitter twittersocialicon"></i></a>Twitter</li>
+                                    <li><a href="#" class="btn-social-circle btn-facebook "><i class="fab fa-linkedin-in linkedinsocialicon"></i></a>LinkedIn</li>
+                                    <li><a href="#" class="btn-social-circle btn-facebook "><i class="fab fa-instagram instagramsocialicon"></i></a>Instagram</li>
+                                   
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6 col-6">
+                            <div class="footer-widget">
+                                <h3>Newsletter</h3>
+                                <p class="special-offers">Join Us For get Special offers and event announcements.</p>
+                                <form>
+                                    <div class="form-group">
+                                        <input class="form-control" placeholder="Enter Your Email address" type="text">
+                                    </div>
+                                    <button class="btn btn-primary btn-sm" type="submit">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="copyright-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                                <p class="copyright-text">Copyright © All Rights Reserved 2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
