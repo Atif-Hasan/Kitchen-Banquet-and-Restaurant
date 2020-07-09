@@ -369,7 +369,7 @@ img {
 .contact-icon {
     font-size: 2.5rem;
     color: #6f9496;
-    margin-bottom: 7.125rem;
+    margin-bottom: 7.2rem;
 }
 
 .hours {
@@ -510,6 +510,8 @@ input::-webkit-input-placeholder { color: #63480f !important; }
 
 
 
+
+
 @media (min-width: 1200px) {
 
     .container,
@@ -535,6 +537,35 @@ input::-webkit-input-placeholder { color: #63480f !important; }
 }
 }
 
+@media (max-width:912px) {
+    .card-body {
+        width: 100% !important;
+    }
+
+    .hours {
+        width: 100% !important;
+    }
+
+    .reservation-text {
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width:888px) {
+
+    .reservation-text {
+        font-size: 1.1rem;
+        text-transform: uppercase;
+    }
+
+    .opening-hours-text {
+        font-style: italic;
+        font-size: 0.7rem;
+        line-height: 2.3;
+    }
+}
+
 @media (max-width: 827px) {
 
     .carousel-caption {
@@ -542,6 +573,21 @@ input::-webkit-input-placeholder { color: #63480f !important; }
         width: 69% !important;
 }
 }
+
+@media (max-width: 754px) {
+    .reservation-text {
+        font-size: 1rem;
+        text-transform: uppercase;
+    }
+
+    .opening-hours-text {
+        font-style: italic;
+        font-size: 0.6rem;
+        line-height: 2.7;
+    }
+}
+
+
 
 @media (min-width: 779px) {
 
@@ -555,6 +601,47 @@ input::-webkit-input-placeholder { color: #63480f !important; }
 
 
 
+@media (max-width: 698px) {
+
+    .opening-hours {
+        margin-bottom: 0.75rem;
+        font-size: 0.85rem;
+    }
+
+    .reservation-text {
+        font-size: 0.85rem;
+        text-transform: uppercase;
+    }
+
+    
+
+    .opening-hours-text {
+        font-style: italic;
+        font-size: 0.55rem;
+        line-height: 3.2;
+    }
+}
+
+@media (max-width: 652px) {
+    .contact-icon {
+        margin-bottom: 9.2rem;
+    }
+
+ 
+}
+
+@media (max-width: 648px) {
+
+    .opening-hours {
+        margin-bottom: 0.1rem;
+        font-size: 0.8rem;
+        white-space: nowrap;
+    }
+    .time {
+        width: 100%;
+    } 
+}
+
 
 @media (max-width: 617px) {
 
@@ -562,6 +649,22 @@ input::-webkit-input-placeholder { color: #63480f !important; }
         bottom: 3% !important;
         width: 75% !important;
     }
+}
+
+@media (max-width: 614px) {
+
+    .reservation-text {
+        white-space: nowrap;
+    }
+
+    .opening-hours {
+        margin-bottom: 0.1rem;
+        font-size: 0.8rem;
+        white-space: nowrap;
+    }
+    .time {
+        width: 100%;
+    } 
 }
 
 
@@ -574,6 +677,34 @@ input::-webkit-input-placeholder { color: #63480f !important; }
     }
 }
 
+
+
+@media (max-width: 574px) {
+
+    .reservation-text {
+        font-size: 0.7rem;
+        
+        text-transform: uppercase;
+        width: 100% !important;
+    }
+
+    .opening-hours {
+        margin-bottom: 0;
+        font-size: 0.65rem;
+        
+        white-space: nowrap;
+        width: 100% !important;
+    }    
+
+    .opening-hours-text {
+        font-style: italic;
+        font-size: 0.55rem;
+        
+        line-height: 3.2;
+    }
+
+}
+
 @media (min-width: 576px) { 
     .mx-w-100 {
         max-width: 100% !important;
@@ -581,6 +712,31 @@ input::-webkit-input-placeholder { color: #63480f !important; }
         padding-right:0px !important;
       }
 
+ }
+
+ @media (max-width: 515px) {
+
+    .reservation-text {
+        font-size: 0.7rem;
+        
+        text-transform: uppercase;
+        width: 100% !important;
+    }
+
+    .opening-hours {
+        margin-bottom: 0;
+        font-size: 0.5rem;
+        
+        white-space: nowrap;
+        width: 100% !important;
+    }    
+
+    .opening-hours-text {
+        font-style: italic;
+        font-size: 0.5rem;
+        
+        line-height: 3.2;
+    }
  }
 
 
@@ -597,7 +753,43 @@ input::-webkit-input-placeholder { color: #63480f !important; }
     }
 }
 
+@media (max-width: 460px) {
+    .reservation-text {
+        font-size: 0.55rem;
+        text-transform: uppercase;
+        width: 100% !important;
+    }
+
+    .opening-hours {
+        margin-bottom: 0;
+        font-size: 0.45rem;
+        white-space: nowrap;
+        width: 100% !important;
+    }
+
+    .opening-hours-text {
+        font-style: italic;
+        font-size: 0.4rem;
+        line-height: 4.1;
+    }
+}
+
 @media (max-width: 423px) {
+
+    .map-content {
+        width: 50%;
+    }
+    
+    .reservation {
+        width:50%;
+    }
+
+    .opening-hours {
+        margin-bottom: 0;
+        font-size: 0.4rem;
+        white-space: nowrap;
+        width: 100% !important;
+    }
 
     .carousel-caption {
         bottom: 1% !important;
