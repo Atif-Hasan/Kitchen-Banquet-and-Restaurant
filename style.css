@@ -156,6 +156,11 @@ img {
 
 .btn-default { background-color: transparent; color: #1c5155; border: 2px solid #1c5155; float: left;}
 
+.btn-default:hover {
+    background-color: #1c5155;
+    color: #fff;
+    border: 2px solid #1c5155;
+}
 
 .services {
     padding: 3rem;
