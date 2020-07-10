@@ -241,6 +241,14 @@ img {
     font-size: 1.125rem;
 }
 
+.testimonial-meta {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #181714;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+}
+
 .quote-icon {
     font-size: 30px;
     margin-bottom: 16px;
