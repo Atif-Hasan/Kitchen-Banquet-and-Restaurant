@@ -462,7 +462,7 @@ footer {
 }
 
 .btn-primary:hover {
-    background-color: #8c6d2d;
+    background-color: #8c6d2d !important;
     color: #fff;
     border: 2px solid #8c6d2d;
 }
